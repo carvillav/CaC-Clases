@@ -1,0 +1,14 @@
+:root{
+    /*--nombre_de_la_variable: valor; */
+    /*colores*/
+    --primary-color: rgb(79, 208, 247);
+    --secundary-color: rgb(18, 13, 56);
+    --success: green;
+    --danger: rgb(255, 170, 0);
+    --error: red;
+    --info: rgb(44, 114, 234);
+    /*fuentes*/
+    /*fondos*/
+    /*...*/
+}
+

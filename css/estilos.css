@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+    font-family: 'Ubuntu', sans-serif;    
+    font-size: 16px;
+}
+
+/*regla: selector por clase!!!!*/
+.headerContainer {
+    text-align: center;
+    /*texto*/
+    text-transform: uppercase;
+    /* font-style: italic; */
+    border: 1px solid lightblue;
+    /*fondo*/
+    background: black;
+    border-radius: 10px;
+}
+/*selector descendiente*/
+.headerContainer h1 {
+    color: yellowgreen;
+}
+
+/*estilos de main*/
+.mainContainer {
+    font-size: 25px;
+    background: lightblue;
+    height: 50vh;
+}
+
+.mainSection{
+    /*border: 1px solid blue;*/
+}
+
+.left_side{
+    background: white;
+}
+
+.right_side{
+    background: lightgreen;   
+}
+
+.inlineBlock{
+    display: inline-block;
+}
+
+.w50{
+    width: 48%;
+}
+
+.contentCenter {
+    text-align: center;
+}
+
+/*estilos de footer*/
+.footerContainer {
+    background: red;
+    height: 25vh;
+}

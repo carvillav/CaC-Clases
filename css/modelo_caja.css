@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+
+.container{
+    background: #1A6FA1;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.item{
+    width: 100px;
+    background: #EDEA4A;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.caja1{
+    background: green;
+}
+
+.caja2{
+    background: burlywood;
+}
+
+.textos p:first-child{
+    color: red;
+}
+
+.textos p:last-child{
+    color: green;
+}
+
+/*
+nth-child(INDICE) 
+INDICE = 3 
+INDICE 3n+1 
+INDICE even -> para los pares
+INDICE odd -> para los imparee
+*/
+.textos p:nth-child(4){
+    color: blue;
+}
+
+a:link{
+    color: yellow;
+    cursor: pointer;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+a:active{
+    color: coral;
+}
+
+a:visited{
+    color: aqua;
+}
+
+a:hover{
+    font-size: 1.1em;
+    color: blueviolet;
+}
+
+/*pseudoelementos*/
+.parrafo {
+    color: #1A6FA1;
+}
+
+.parrafo::first-letter {
+    font-size: 2em;    
+}
+.parrafo::before {
+    content: "/*"
+}
+.parrafo::after {
+    content: "*/"
+}
+.parrafo::selection {
+    color:#9e9b09
+}
+.parrafo::first-line {
+    font-weight: bold;
+}

@@ -1,0 +1,27 @@
+@import url(variable.css);
+
+.link{
+    color: var(--primary-color);
+}
+.navbar{
+border: 1px solid green;
+}
+
+.btn{
+    height: 5vh;
+    border-radius: 10px;
+}
+
+.btn-small{
+    height: 4vh;
+}
+
+.btn-large{
+    height: 8vh;
+    width: 15vw;
+}
+
+.btn-info{
+    background-color: var(--info);
+    color: white;
+}

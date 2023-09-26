@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumno - Form</title>
+</head>
+<body>
+    <h1>Datos del Alumno</h1>
+    
+        <fieldset>
+            <legend>
+                Datos del Alumno
+            </legend>
+            <form action="">
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <label for="apellido">Apellido: </label>
+                <input type="text" id="apellido" name="apellido" required>
+                <br>
+                <label for="dni">DNI: </label>
+                <input type="text" id="dni" maxlength="10" name="dni" required>
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="curso">Curso: </label>
+                <select name="" id="curso" name="curso">
+                    <option value="" selected>Java</option>
+                    <option value="">Javascript</option>
+                    <option value="">PHP</option>
+                </select>
+                <br>
+                <label for="">Turno: </label>
+                <br>
+                <label for="maniana">Mañana</label>
+                <input type="radio" name="turno" id="maniana" required>
+                <label for="tarde">Tarde</label>
+                <input type="radio" name="turno" id="tarde" required>
+                <label for="noche">Noche</label>
+                <input type="radio" name="turno" id="noche" required>
+                <hr>
+                <button>Grabar</button>
+            </form>
+        </fieldset>
+        <a href="tablas.html">Volver</a>
+</body>
+</html>
