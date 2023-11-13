@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="valor1">Valor1</label>
+        <input id="valor1" type="number">
+    </div>
+
+    <div>
+        <label for="valor2">Valor2</label>
+        <input id="valor2" type="number">
+    </div>
+
+    <button onclick="calcular('+')">
+        +
+    </button>
+    <button onclick="calcular('-')">
+        -
+    </button>
+    <button onclick="calcular('/')">
+        /
+    </button>
+
+    <div>
+        Resultado: <span id="res">---</span>
+    </div>
+    
+    <script src="../js/operadores.js"></script>
+</body>
+</html>
